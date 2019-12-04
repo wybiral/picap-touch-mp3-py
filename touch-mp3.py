@@ -74,8 +74,9 @@ def play_sounds_when_touched():
             if sensor.is_new_touch(i):
                 # play sound associated with that touch
                 print ("playing sound: " + str(i))
-                sound = sounds[i]
-                sound.play()
+                if i < len(sounds):
+                    sound = sounds[i]
+                    sound.play()
 
         if is_any_touch_registered:
             led.red = 1
