@@ -2,6 +2,10 @@
 
 # Bare Conductive Pi Cap Polyphonic Touch MP3 Utility
 
+The code and sound files in this repo were used to make the capacitive touch musical Christmas tree featured in this YouTube video:
+
+[![Capacitive Touch Christmas Tree](https://img.youtube.com/vi/Hi1HbB1ojYY/0.jpg)](https://www.youtube.com/watch?v=Hi1HbB1ojYY)
+
 Example MP3 playback code for the [Bare Conductive Pi Cap](http://www.bareconductive.com/shop/pi-cap/). You need twelve MP3 files named TRACK000.mp3 to TRACK011.mp3 in a folder called `tracks` inside this folder. When you touch electrode E0, TRACK000.mp3 will play. When you touch electrode E1, TRACK001.mp3 will play, and so on. Playback is polyphonic, which is nice.
 
     picap-touch-mp3-py    
